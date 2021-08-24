@@ -10,8 +10,6 @@ let number = document.getElementById('number');
 //******************API REQUEST FUNCTION***********************//
 
 let calculate = () => {
-  let access_key = '680bbc3728d9add676669ad55d2595fe';
-
   fetch(`https://api.exchangerate.host/latest`)
     .then((response) => response.json())
 
